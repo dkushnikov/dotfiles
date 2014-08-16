@@ -54,3 +54,5 @@ export VAGRANT_DEFAULT_PROVIDER=parallels
 # Mac Ports
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
